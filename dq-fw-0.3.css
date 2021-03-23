@@ -457,6 +457,9 @@ img {
   background: #ae11001a;
   border-left: 5px solid #ae110059;
 }
+.systemui {
+  font-family: system-ui !important;
+}
 
 /* My Own Style ( dq framework 0.2 )
      ============================================================================*/
