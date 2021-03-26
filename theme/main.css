@@ -1,5 +1,5 @@
 :root {
-  /* dark navy color pallete */
+  /* vampire color pallete */
   --vampire: #26344a;
   --vampire-flavour1: #161d28;
   --vampire-flavour2: #161d28;
@@ -9,7 +9,7 @@
   --light-blue-ish: #409eff;
  /* light color pallete */
 }
-.dark-mode {
+.vampire-mode {
   /* concepts */
   --main-brand-color: var(--vampire);
   --secondary-brand-color: none;
