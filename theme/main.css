@@ -40,7 +40,10 @@
 .dashboard-component-wrapper  {
   background-color: var(--main-brand-color) !important;
 }
-.theme-secondary-text-color, .dashboard-static-text2, h1, h2, h3, h4, h5, h6, span {
+.theme-secondary-text-color, 
+.dashboard-static-text2, 
+h1, h2, h3, h4, h5, h6, span,
+.dashboard-input {
   color: var(--secondary-text-color) !important;
 }
 .theme-main-text-color,
@@ -71,7 +74,8 @@
 .theme-background-flavour1,
 .dashboard-button, 
 .dashboard-active,
-.dashboard-modal {
+.dashboard-modal,
+.dashboard-input {
   background-color: var(--main-brand-color-flavour1) !important;
 }
 /* button classes */
@@ -93,4 +97,11 @@
 }
 .dashboard-divider-color {
   border: 1px solid var(--main-border-color) !important;
+}
+.dashboard-input{
+  outline: none !important;
+}
+.login-bg {
+  background: rgb(117,91,63);
+  background: linear-gradient(156deg, rgba(117,91,63,1) 0%, rgba(85,102,119,1) 43%, rgba(22,29,40,1) 100%);
 }
