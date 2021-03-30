@@ -45,6 +45,7 @@
 h1, h2, h3, h4, h5, h6, span,
 .dashboard-input {
   color: var(--secondary-text-color) !important;
+  font-weight: 300 !important;
 }
 .theme-main-text-color,
 .dashboard-component-title, 
