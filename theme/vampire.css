@@ -85,6 +85,12 @@ h1, h2, h3, h4, h5, h6, span,
 .dashboard-button-static:hover {
   background-color: var(--main-brand-color-flavour2) !important;
 }
+.dashboard-button {
+  padding-left: calc(var(--fontSize) * 0.5);
+  padding-right: calc(var(--fontSize) * 0.5);
+  padding-top: calc(var(--fontSize) * 0.25);
+  padding-bottom: calc(var(--fontSize) * 0.25);
+}
 /* shadow classes */
 .dashboard-hover-shadow-bottom:hover {
   -webkit-box-shadow: 2px 16px 25px -3px  var(--main-brand-color-flavour1) !important;
